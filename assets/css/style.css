@@ -441,6 +441,7 @@ main {
 .social-item .social-link {
   color: var(--light-gray-70);
   font-size: 18px;
+  margin-top: 10px;
 }
 
 
@@ -506,6 +507,13 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+.project-link {
+  color: var(--light-gray);
+  font-size: var(--fs-14);
+  /* padding: 20px 7px; */
+  text-decoration: underline;
+  transition: color var(--transition-1);
+}
 
 
 /**
